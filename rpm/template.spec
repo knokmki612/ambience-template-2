@@ -30,6 +30,12 @@ make %{?jobs:-j%jobs}
 rm -rf %{buildroot}
 %qmake5_install
 
+%post
+systemctl-user restart ambienced.service
+
+%postun
+systemctl-user restart ambienced.service
+
 %files
 %defattr(-,root,root,-)
 %{_datadir}/ambience/template/
