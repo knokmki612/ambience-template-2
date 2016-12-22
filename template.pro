@@ -1,5 +1,5 @@
 TEMPLATE = aux
-NAME=ambience-template
+NAME=template
 OTHER_FILES = \
         $${NAME}.ambience \
         sounds.index \

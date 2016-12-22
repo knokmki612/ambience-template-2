@@ -30,4 +30,4 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root,-)
-%{_datadir}/ambience/ambience-template/
+%{_datadir}/ambience/template/
