@@ -30,8 +30,4 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root,-)
-%{_datadir}/ambience/ambience-template/ambience-template.ambience
-%{_datadir}/ambience/ambience-template/sounds.index
-%{_datadir}/ambience/ambience-template/images/*
-%{_datadir}/ambience/ambience-template/sounds/*
-
+%{_datadir}/ambience/ambience-template/
