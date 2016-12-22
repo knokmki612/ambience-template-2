@@ -6,11 +6,13 @@ Release:    1
 Group:      System/GUI/Other
 License:    TBD
 Source0:    %{name}-%{version}.tar.bz2
+BuildArch:      noarch
 BuildRequires:  qt5-qttools
 BuildRequires:  qt5-qttools-linguist
 BuildRequires:  qt5-qmake
 
 Requires:   ambienced
+Requires:   sailfish-version >= 2.0.0
 
 %description
 This is a template ambience description
