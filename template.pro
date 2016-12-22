@@ -23,6 +23,4 @@ sounds.path = $${ambience.path}/sounds
 INSTALLS += \
         ambience \
         images \
-        sounds \
-        ts_install \
-        engineering_english_install
+        sounds
